@@ -15,15 +15,15 @@ res = requests.get(url).json()
 
 
 
-print('Country:',res['sys']['country'])
-print('City:',res['name'])
-print('Longtitude:',res['coord']['lon'])
-print('Lotitude:',res['coord']['lat'])
-print('Temperature:',res['main']['temp'],'C')
-print('Min.Temp:',res['main']['temp'],'C')
-print('Max.temp:',res['main']['temp'],'C')
-print('Humidity:',res['main']['temp'])
-print('Pressure:',res['main']['temp'])
+st.print('Country:',res['sys']['country'])
+st.print('City:',res['name'])
+st.print('Longtitude:',res['coord']['lon'])
+st.print('Lotitude:',res['coord']['lat'])
+st.print('Temperature:',res['main']['temp'],'C')
+st.print('Min.Temp:',res['main']['temp'],'C')
+st.print('Max.temp:',res['main']['temp'],'C')
+st.print('Humidity:',res['main']['temp'])
+st.print('Pressure:',res['main']['temp'])
 
 
 
